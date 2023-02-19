@@ -6,7 +6,7 @@ import Post from "../components/Post"
 export default function BlogPage({ filteredPosts }) {
   return (
     <Layout title='Blog page'>
-      <ul>
+      <ul className="mx-8 ">
         {filteredPosts &&
           filteredPosts.map((post) => <Post key={post.id} post={post} />)}
       </ul>

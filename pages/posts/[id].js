@@ -11,13 +11,13 @@ export default function Post({ post }) {
   }
   return (
     <Layout title={post.title}>
-      <p className='m-4'>
+      {/* <p className='m-4'>
         {"ID :"}
         {post.id}
-      </p>
-      <p className='mb-4 text-xl font-bold'>{post.title}</p>
+      </p> */}
+      <p className='mb-4 text-xl font-bold mt-8'>{post.title}</p>
       <p className='mb-12'>{post.created_at}</p>
-      <p className='px-10'>{post.content}</p>
+      <p className='mx-24'>{post.content}</p>
       <Link href='/blog-page'>
         <div className='flex cursor-pointer mt-12'>
           <svg

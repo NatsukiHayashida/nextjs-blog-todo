@@ -13,14 +13,14 @@ export default function MainPage() {
   }
   return (
     <Layout title='Main page'>
-      <div className='mb-10'>
+      <div className='mb-10 grid md:flex'>
         <Link href='/blog-page'>
-          <a className='bg-indigo-500 mr-8 hover:bg-indigo-600 test-white px-4 py-12 rounded'>
+          <a className='bg-indigo-500 mx-8 my-4 hover:bg-indigo-600 test-white px-4 py-12 rounded'>
             Visit Blog by SSG + ISR
           </a>
         </Link>
         <Link href='/task-page'>
-          <a className='bg-gray-500 mr-8 hover:bg-gray-600 test-white px-4 py-12 rounded'>
+          <a className='bg-gray-500 mx-8 my-4 hover:bg-gray-600 test-white px-4 py-12 rounded'>
             Visit Task by ISR + CSR
           </a>
         </Link>
